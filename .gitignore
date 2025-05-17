@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+
+# Database
+*.sqlite
+database.sqlite
+
+# Build output
+frontend/codecast/build/
+frontend/codecast/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Misc
+*.swp
+
+# Ignore coverage
+coverage/
+
+# Ignore backend build artifacts
+backend/build/ 
